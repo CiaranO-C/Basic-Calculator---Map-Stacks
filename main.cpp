@@ -42,7 +42,6 @@ std::string convertExpression(std::string ex) {
             }
                           
     } while(inputStream);
-    std::cout << "new expression is: " << newExpression << '\n';
     
     return newExpression;
 }
